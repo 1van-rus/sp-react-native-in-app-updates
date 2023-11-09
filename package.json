@@ -44,14 +44,13 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "dependencies": {
-    "react-native-device-info": "10.3.0",
+  "dependencies": { 
     "react-native-siren": "0.0.5",
     "semver": "7.2.1",
     "underscore": "1.12.1"
   },
   "resolutions": {
-    "react-native-device-info": "10.3.0"
+    "react-native-device-info": ">=4.0.0"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
@@ -78,7 +77,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-device-info": ">=4.0.0"
   },
   "jest": {
     "preset": "react-native",
